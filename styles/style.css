@@ -1,5 +1,35 @@
 * {
-    padding: 0;
-    margin: 0;
     font-family: Inter, sans-serif;
 }
+
+body {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-weight: 900;
+    border-style: dotted;
+	background-color: aquamarine;
+	border-color: coral;
+    padding: 1em 0em;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    padding: 1em 2em !important;
+    border: 1px solid black;
+}
+
+tr {
+    padding: 1em 2em !important;
+    border: 1px solid black;
+}
+
+td {
+    padding: 1em 2em !important;
+    border: 1px solid black;
+}
+
