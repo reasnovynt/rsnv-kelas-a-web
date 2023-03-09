@@ -33,3 +33,54 @@ td {
     border: 1px solid black;
 }
 
+header {
+    background-color: black;
+    color: white;
+    padding: 1em 0em;
+}
+header .brand {
+    font-weight: 800;
+    float: left;
+}
+header .navbar-menu {
+    display: flex;
+    gap: 1em;
+    float: right;
+    color: white;
+}
+header .navbar-menu li {
+    list-style: none;
+    transition: .3s;
+}
+header .navbar-menu li:hover {
+    border-bottom: .1em solid white;
+    transition: .3s;
+}
+
+header .navbar-menu a {
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+}
+header .navbar-menu a:active {
+    text-decoration: inherit;
+    color: inherit;
+}
+main {
+    display: flex;
+    min-height: 80vh;
+}
+aside {
+    width: 40%;
+}
+content {
+    width: 60%;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
