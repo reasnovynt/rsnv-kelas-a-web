@@ -1,86 +1,90 @@
 * {
-    font-family: Inter, sans-serif;
+	font-family: Inter, sans-serif;
 }
 
 body {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 h2 {
-    font-weight: 900;
-    border-style: dotted;
+	font-weight: 900;
+	border-style: dotted;
 	background-color: aquamarine;
 	border-color: coral;
-    padding: 1em 0em;
+	padding: 1em 0em;
 }
 
 table {
-    border: 1px solid black;
+	border: 1px solid black;
 }
 
 th {
-    padding: 1em 2em !important;
-    border: 1px solid black;
+	padding: 1em 2em !important;
+	border: 1px solid black;
 }
 
 tr {
-    padding: 1em 2em !important;
-    border: 1px solid black;
+	padding: 1em 2em !important;
+	border: 1px solid black;
 }
 
 td {
-    padding: 1em 2em !important;
-    border: 1px solid black;
+	padding: 1em 2em !important;
+	border: 1px solid black;
 }
 
 header {
-    background-color: black;
-    color: white;
-    padding: 1em 0em;
+	background-color: black;
+	color: white;
+	padding: 1em 0em;
 }
 header .brand {
-    font-weight: 800;
-    float: left;
+	font-weight: 800;
+	float: left;
 }
-header .navbar-menu {
-    display: flex;
-    gap: 1em;
-    float: right;
-    color: white;
+header .rv-navbar-menu {
+	display: flex;
+	gap: 1em;
+	float: right;
+	color: white;
 }
-header .navbar-menu li {
-    list-style: none;
-    transition: .3s;
+header .rv-navbar-menu li {
+	list-style: none;
 }
-header .navbar-menu li:hover {
-    border-bottom: .1em solid white;
-    transition: .3s;
+header .rv-navbar-menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: small;
+    transition: 0.3s;    
 }
-
-header .navbar-menu a {
-    text-decoration: none;
-    color:white;
-    font-weight: 600;
+header .rv-navbar-menu a:hover {
+	color: lightcoral;
+	transition: ease-in-out 0.3s;
 }
-header .navbar-menu a:active {
-    text-decoration: inherit;
-    color: inherit;
+header .rv-navbar-menu a:active {
+	text-decoration: inherit;
+	color: inherit;
 }
 main {
-    display: flex;
-    min-height: 80vh;
+	display: flex;
+	min-height: 80vh;
+	padding: 2em 0em;
 }
 aside {
-    width: 40%;
+	width: 40%;
 }
 content {
-    width: 60%;
+	width: 60%;
 }
 footer {
-    background-color: black;
-    color: white;
-    display: block;
-    width: 100%;
-    padding: 1em;
-    text-align: center;
+	background-color: black;
+	color: white;
+	display: block;
+	width: 100%;
+	padding: 1em;
+	text-align: center;
+}
+article {
+	margin-bottom: 1em;
 }
